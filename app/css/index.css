@@ -1,0 +1,69 @@
+html,body{
+	background: linear-gradient(to top, wheat, skyblue) no-repeat;
+}
+.container{
+	width:80%;
+	padding: 20px 0;
+	margin:0 auto;	
+}
+.talking-record{
+	height: 300px;
+	border:1px solid #333;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	background: linear-gradient(to bottom,skyblue, seagreen);
+}
+.talking-record .record-content{
+	width: 100%;
+	position: absolute;	
+	left:0;
+}
+.talking-record .talks{
+	width:90%;
+	margin:10px auto;
+}
+.talking-record .talks:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.talking-record .talks .i-talk{
+    width:40%;
+    padding:10px 20px;
+    border-radius: 8px;
+    background: #7fb;
+    float: left;
+}
+.talking-record .talks .she-talks{
+    width:40%;
+    padding:10px 20px;
+    border-radius: 8px;
+    background: #39f;
+    float: right;
+}
+.talking-record .talks .name{
+	font-size: 20px;
+	color: darkslategray;
+}
+.talking-record .talks .she-talks .name{
+	color: yellow;
+	text-align: right;
+}
+.talking-record .talks .content{
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.user-operates div{
+	margin:10px 0;
+}
+.user-operates .user-nickname{
+	line-height: 30px;
+	text-align: center;	
+}
+.user-operates textarea{
+	padding: 10px 20px;
+	resize: none;
+	line-height: 25px;
+}
