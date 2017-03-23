@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var JSWS = new WebSocket("ws://192.168.199.189:8484"),
+=======
+var JSWS = new WebSocket("ws://127.0.0.1:8484"),
+>>>>>>> 0d839c2704fd37014d36e68ebec9752cfa8daa59
 	wsConnectId;
 
 function bottomIt() {
